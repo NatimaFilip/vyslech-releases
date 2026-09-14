@@ -2,19 +2,19 @@
 
 Výslech je interní appka Natima / Natios pro Mac a Windows. Čtyřikrát denně se zeptá, co děláš, z odpovědí složí denní souhrn a v pátek ho pošle do Freela.
 
-**Stáhnout nejnovější verzi: [Releases → Latest](https://github.com/NatimaFilip/vyslech-releases/releases/latest)**
+## Který soubor stáhnout
 
-V sekci _Assets_ vyber soubor pro svůj počítač:
+Klikni na svůj řádek, stažení začne hned (vždy nejnovější verze):
 
-| Počítač                                  | Soubor                          |
-| ---------------------------------------- | ------------------------------- |
-| Mac s čipem Apple (M1, M2, M3, M4…)      | `Vyslech-x.y.z-mac-arm64.dmg`   |
-| Mac s procesorem Intel                   | `Vyslech-x.y.z-mac-x64.dmg`     |
-| Windows                                  | `Vyslech-x.y.z-win-setup.exe`   |
+| Máš | Stáhni |
+| --- | --- |
+| **Mac s čipem Apple** (M1, M2, M3, M4…) | **[Stáhnout Vyslech-mac-arm64.dmg](https://github.com/NatimaFilip/vyslech-releases/releases/latest/download/Vyslech-mac-arm64.dmg)** |
+| **Mac s procesorem Intel** | **[Stáhnout Vyslech-mac-x64.dmg](https://github.com/NatimaFilip/vyslech-releases/releases/latest/download/Vyslech-mac-x64.dmg)** |
+| **Windows** | **[Stáhnout Vyslech-win-setup.exe](https://github.com/NatimaFilip/vyslech-releases/releases/latest/download/Vyslech-win-setup.exe)** |
 
-Nevíš, jaký máš Mac? Klikni na  vlevo nahoře → **O tomto Macu**. „Čip Apple M…“ = arm64, „Procesor Intel“ = x64.
+Nevíš, jaký máš Mac? Klikni na  vlevo nahoře → **O tomto Macu**. „Čip Apple M…“ = arm64, „Procesor Intel“ = x64. Když si nejsi jistý, zkus arm64; na Intelu se prostě nespustí a stáhneš druhý.
 
-Instalátor **neobsahuje AI klíč**. Ten dostaneš od Filipa jako soubor nebo text a vložíš ho jednou v Nastavení (viz níže). Po aktualizaci zůstane.
+Všechna vydání: [Releases](https://github.com/NatimaFilip/vyslech-releases/releases). Instalátor **neobsahuje AI klíč**, ten dostaneš od Filipa jako soubor a vložíš ho jednou v Nastavení (viz níže). Po aktualizaci zůstane.
 
 ## Instalace na Macu
 
