@@ -48,7 +48,7 @@ Po prvním spuštění se otevře Nastavení:
 1. **Jméno a příjmení** – tak se bude jmenovat tvůj podúkol ve Freelu.
 2. **AI klíč** – klikni **Načíst klíč ze souboru…** a vyber soubor od Filipa (např. `vyslech-klic.env`). Nebo klíč vlož jako text do pole. Pak klikni **Otestovat**, musí se ukázat „funguje“.
 3. **Freelo e-mail** – e-mail, kterým se přihlašuješ do Freela.
-4. **Freelo API klíč** – ve Freelu klikni na svůj avatar vpravo nahoře → **Nastavení** → sjeď úplně dolů na sekci **API klíč** a zkopíruj ho sem. Klikni **Otestovat**; musí se ukázat „funguje, přihlášen jako …“. Když hlásí, že nevidíš úkol Týdenní souhrn aktivit, napiš Filipovi, ať tě přidá do projektu.
+4. **Freelo API klíč** – ve Freelu klikni na svůj avatar vpravo nahoře → **Nastavení** → sjeď úplně dolů na sekci **API klíč** a zkopíruj ho sem. Klikni **Otestovat**; musí se ukázat „funguje, účet …“. Když hlásí, že nevidíš úkol Týdenní souhrn aktivit, napiš Filipovi, ať tě přidá do projektu.
 5. Volitelně zapni **Číst otázky nahlas** a vyber hlas (tlačítko Přehrát ukázku).
 6. Klikni **Uložit**. Okno můžeš zavřít, appka běží dál v liště.
 
