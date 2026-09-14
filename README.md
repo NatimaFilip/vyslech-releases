@@ -18,24 +18,28 @@ Instalátor **neobsahuje AI klíč**. Ten dostaneš od Filipa jako soubor nebo t
 
 ## Instalace na Macu
 
-1. Otevři stažený soubor `.dmg` (dvojklik). Objeví se okno s ikonou Vyslech a složkou Aplikace.
-2. Přetáhni ikonu **Vyslech** na složku **Aplikace**. Okno zavři, `.dmg` můžeš smazat.
-3. Appka není podepsaná u Apple, proto ji macOS poprvé odmítne. Otevři **Terminál** (⌘ + mezerník, napiš „Terminál“, Enter), vlož tento řádek a stiskni Enter:
-   ```
-   xattr -cr /Applications/Vyslech.app
-   ```
-   Terminál nic nevypíše, to je správně. Kdyby macOS přesto hlásil, že je appka poškozená nebo od neověřeného vývojáře: Systémová nastavení → Soukromí a zabezpečení → sjeď dolů → **Přesto otevřít**.
-4. Ve složce Aplikace spusť **Vyslech**. Ikona mikrofonu se objeví v horní liště u hodin a otevře se okno s Nastavením.
-5. Do Docku: zatímco appka běží, klikni pravým na její ikonu v Docku → Volby → **Ponechat v Docku**.
-6. Při prvním výslechu se macOS zeptá na mikrofon, klikni **Povolit**. Když klikneš Nepovolit, napravíš to v Systémová nastavení → Soukromí a zabezpečení → Mikrofon.
-7. macOS oznámí, že se Vyslech přidal mezi položky přihlášení. To je v pořádku, appka se má spouštět sama po zapnutí počítače.
+Nic se nepíše do Terminálu. Jen klikání.
+
+1. Otevři stažený soubor `.dmg` (dvojklik). Objeví se okno s ikonou **Vyslech** a složkou **Aplikace**.
+2. Přetáhni ikonu Vyslech na složku Aplikace. Okno zavři, `.dmg` můžeš smazat.
+3. Otevři složku **Aplikace** (Finder → Aplikace) a dvakrát klikni na **Vyslech**.
+4. macOS ukáže hlášku, že aplikaci nelze otevřít, protože Apple nemůže ověřit, že neobsahuje malware. Klikni **Hotovo** (ne „Přesunout do koše“).
+5. Otevři **Systémová nastavení** (ikona ozubeného kola v Docku nebo  → Systémová nastavení) → v levém sloupci **Soukromí a zabezpečení** → sjeď úplně dolů k části **Zabezpečení**. Je tam věta „Aplikace Vyslech byla zablokována…“ a vedle ní tlačítko **Přesto otevřít**. Klikni na něj, potvrď **Otevřít** a zadej heslo k Macu nebo použij Touch ID.
+6. Vyslech se spustí: ikona mikrofonu se objeví v horní liště u hodin a otevře se okno s Nastavením. Tohle povolení děláš jen jednou, pak už appka startuje normálně.
+7. Do Docku: zatímco appka běží, klikni pravým na její ikonu v Docku → **Volby** → **Ponechat v Docku**.
+8. Při prvním výslechu se macOS zeptá na mikrofon, klikni **Povolit**. Kdybys klikl Nepovolit, napravíš to v Systémová nastavení → Soukromí a zabezpečení → Mikrofon.
+9. macOS ještě oznámí, že se Vyslech přidal mezi položky přihlášení. To je správně, appka se má spouštět sama po zapnutí počítače.
+
+Na starším macOS (13, 14) jde krok 4 a 5 nahradit takto: ve složce Aplikace klikni na Vyslech **pravým tlačítkem → Otevřít → Otevřít**.
+
+Až bude appka podepsaná u Apple, kroky 4 a 5 zmizí a appka se prostě otevře.
 
 ## Instalace na Windows
 
-1. Spusť stažený `.exe`.
-2. Objeví se modré okno „Systém Windows ochránil váš počítač“, protože instalátor není podepsaný. Klikni **Další informace** a pak **Přesto spustit**.
-3. Instalace proběhne sama a appka se spustí. Ikona je vpravo dole u hodin (někdy pod šipkou ˄), zástupce je na ploše a v nabídce Start.
-4. Při prvním výslechu appka požádá o mikrofon, povol ho. Když je mikrofon blokovaný globálně: Nastavení → Soukromí a zabezpečení → Mikrofon → povolit pro desktopové aplikace.
+1. Spusť stažený `.exe` (dvojklik).
+2. Objeví se modré okno „Systém Windows ochránil váš počítač“. Klikni na **Další informace** a pak na **Přesto spustit**.
+3. Instalace proběhne sama a appka se spustí. Ikona mikrofonu je vpravo dole u hodin (někdy schovaná pod šipkou ˄), zástupce je na ploše a v nabídce Start.
+4. Při prvním výslechu appka požádá o mikrofon, povol ho. Když je mikrofon vypnutý pro všechny aplikace: Nastavení → Soukromí a zabezpečení → Mikrofon → povolit přístup pro desktopové aplikace.
 
 ## První nastavení (Mac i Windows)
 
@@ -52,13 +56,11 @@ Po prvním spuštění se otevře Nastavení:
 
 ## Aktualizace
 
-Appka se neaktualizuje sama, ale sama ti řekne, že je nová verze (banner na Přehledu s tlačítkem Stáhnout, nebo Nastavení → Zkontrolovat novou verzi).
+Appka se neaktualizuje sama, ale sama ti řekne, že je nová verze: na Přehledu se objeví modrý pruh s tlačítkem **Stáhnout** (nebo Nastavení → Zkontrolovat novou verzi).
 
 1. Ukonči appku: ikona v liště → **Ukončit Výslech**.
-2. Stáhni nový instalátor a postupuj jako při instalaci. Na Macu potvrď **Nahradit** a znovu spusť `xattr -cr /Applications/Vyslech.app`. Na Windows projdi SmartScreen jako poprvé.
-3. Nastavení, klíče i historie zůstanou, leží mimo aplikaci:
-   - Mac: `~/Library/Application Support/Výslech/`
-   - Windows: `%APPDATA%\Výslech\`
+2. Klikni na Stáhnout a nový instalátor nainstaluj stejně jako poprvé. Na Macu při přetažení do Aplikací potvrď **Nahradit** a při prvním otevření znovu projdi **Přesto otevřít** v Systémových nastaveních. Na Windows projdi SmartScreen jako poprvé.
+3. Jméno, klíče i historie zůstanou, jsou uložené mimo aplikaci.
 
 ## Když něco nejde
 
