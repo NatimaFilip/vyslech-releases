@@ -67,4 +67,5 @@ Appka se neaktualizuje sama, ale sama ti řekne, že je nová verze: na Přehled
 - „Neplatný AI Gateway klíč“ → klíč je špatně vložený nebo byl zrušený, načti nový soubor od Filipa.
 - „Vyčerpaný kredit nebo denní rozpočet“ → klíč má denní limit, zkus to zítra nebo napiš Filipovi.
 - Freelo test hlásí, že nevidíš rodičovský úkol → nech se přidat do projektu ve Freelu.
-- Přepis nefunguje → zkontroluj mikrofon v systémovém nastavení, nebo odpověz tlačítkem Raději napsat.
+- Přepis je nepřesný → v Nastavení vyber správný mikrofon (ne ten v monitoru) a udělej Zkušební nahrávku, má ukázat úroveň aspoň 30 %. Mluv blíž. Do Slovníku pro přepis napiš názvy projektů a jména, která říkáš často.
+- Appka nevidí mikrofon → zkontroluj mikrofon v systémovém nastavení, nebo odpověz tlačítkem Raději napsat.
