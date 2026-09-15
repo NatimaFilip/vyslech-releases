@@ -52,7 +52,7 @@ Po prvním spuštění se otevře Nastavení:
 5. Volitelně zapni **Číst otázky nahlas** a vyber hlas (tlačítko Přehrát ukázku).
 6. Klikni **Uložit**. Okno můžeš zavřít, appka běží dál v liště.
 
-Časy výslechů jsou 8:15, 11:15 a 15:00 v pracovní dny (v Nastavení si je můžeš posunout, počet tří zůstává). V daný čas přijde notifikace, klikni na ni nebo na ikonu v liště → **Odpovědět na výslech**. Odpovídáš mikrofonem (klikni na kulaté tlačítko, mluv, klikni znovu) nebo tlačítkem **Raději napsat**.
+Časy výslechů jsou 8:15, 11:15 a 15:00 v pracovní dny (v Nastavení si je můžeš posunout, počet tří zůstává). V daný čas vyskočí okno appky do popředí a přijde notifikace; klikni na **Začít výslech** (nebo kdykoli na ikonu v liště → **Odpovědět na výslech**). Odpovídáš mikrofonem (klikni na kulaté tlačítko, mluv, klikni znovu) nebo tlačítkem **Raději napsat**.
 
 ## Aktualizace
 
