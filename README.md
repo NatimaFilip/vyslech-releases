@@ -1,6 +1,6 @@
 # Výslech – stažení a instalace
 
-Výslech je interní appka Natima / Natios pro Mac a Windows. Čtyřikrát denně se zeptá, co děláš, z odpovědí složí denní souhrn a v pátek ho pošle do Freela.
+Výslech je interní appka Natima / Natios pro Mac a Windows. Třikrát denně se zeptá, co děláš, z odpovědí složí denní souhrn a v pátek ho pošle do Freela.
 
 ## Který soubor stáhnout
 
@@ -52,7 +52,7 @@ Po prvním spuštění se otevře Nastavení:
 5. Volitelně zapni **Číst otázky nahlas** a vyber hlas (tlačítko Přehrát ukázku).
 6. Klikni **Uložit**. Okno můžeš zavřít, appka běží dál v liště.
 
-Časy výslechů jsou 8:30, 11:00, 13:30 a 15:30 v pracovní dny (v Nastavení si je můžeš posunout, počet čtyř zůstává). V daný čas přijde notifikace, klikni na ni nebo na ikonu v liště → **Odpovědět na výslech**. Odpovídáš mikrofonem (klikni na kulaté tlačítko, mluv, klikni znovu) nebo tlačítkem **Raději napsat**.
+Časy výslechů jsou 8:15, 11:15 a 15:00 v pracovní dny (v Nastavení si je můžeš posunout, počet tří zůstává). V daný čas přijde notifikace, klikni na ni nebo na ikonu v liště → **Odpovědět na výslech**. Odpovídáš mikrofonem (klikni na kulaté tlačítko, mluv, klikni znovu) nebo tlačítkem **Raději napsat**.
 
 ## Aktualizace
 
